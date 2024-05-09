@@ -9,7 +9,7 @@ on:
 
 
 jobs:
-  export-from-dev:
+  build:
     runs-on: windows-latest
     
 
