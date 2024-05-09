@@ -21,4 +21,4 @@ jobs:
     #     lfs: true
    
     - name: calling workflow
-      uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
+      uses: NewDemoOrg/new_repo/.github/workflows/blank.yml
