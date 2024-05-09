@@ -1,6 +1,4 @@
 name: export-and-branch-solution
-# Export solution from DEV environment
-#  unpack it and prepare, commit and push a git branch with the changes
 
 on:
   
@@ -16,9 +14,6 @@ jobs:
     
 
     steps:
-    # - uses: actions/checkout@v2
-    #   with:
-    #     lfs: true
-   
+    
     - name: calling workflow
-      uses: NewDemoOrg/new_repo/.github/workflows/blank.yml
+      uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
