@@ -1,19 +1,15 @@
-name: export-and-branch-solution
+name: demo_caller
 
 on:
   
   push:
     branches: [ main ]
 
-
-
-
 jobs:
   build:
     runs-on: windows-latest
-    
-
+  
     steps:
     
-    - name: calling workflow
-      uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
+     - name: calling workflow
+       uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
