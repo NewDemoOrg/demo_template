@@ -6,10 +6,10 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
-    runs-on: windows-latest
-  
-    steps:
-    
-     - name: calling workflow
+  call-workflow:
        uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
+  
+    # steps:
+    
+    #  call-workflow:
+    #    uses: NewDemoOrg/new_repo/.github/workflows/blank.yml@main
